@@ -1,0 +1,160 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #355263;
+}
+
+#mainLogo{
+    width:100px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+ul{
+    list-style-type: none;
+    color: #a4a8ab;
+}
+
+li{
+    display: inline;
+    margin: 10px;
+    font-size: large;
+    font-weight: 300;
+ 
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+    background-color: #355263;
+    color: white;
+}
+
+.mainDes{
+    width: 500px;
+    display: block;
+}
+
+#mainImg{
+    width: 300px;
+    background-color: #a4a8ab;
+    height: 100px;
+text-align: center;
+margin: 15px;
+}
+
+#row1Btn{
+    background-color: #3b95e3;
+    width: 100px;
+    border-radius: 15%;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.row2{
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.showItem{
+    width: 300px;
+    
+    text-align: center;
+    color:   #a5afb8;
+    font-size: 20px;
+}
+
+.pic{
+    width: 150px;
+    height: 150px;
+    border: #0d7ee0 2px solid;
+    border-radius: 10%;
+    margin-left: 25%;
+    margin-bottom: 5px;
+}
+
+
+.row2 h2{
+    display: block;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.row3{
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #d5dbe0;
+    align-items: center;
+}
+
+.row3 p{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+.row3 div{
+    width: 700px;
+    text-align: right;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.row4{
+    display: flex;
+    flex-direction: row;
+    background-color: #3ea2fa;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    margin: 100px auto 100px auto;
+    padding: 50px 100px 50px 100px;
+    gap: 40px;
+    border-radius: 15px;
+}
+
+.signupText{
+    margin: 15px;
+}
+
+.row4 button{
+    background-color: #3ea2fa;
+    color: antiquewhite;
+    border-radius: 10%;
+    border-color: white;
+    border-width: 3px;
+    padding: 3px 20px 3px 20px;
+}
+
+.signupText h2{
+    margin: 0px;
+}
+
+footer{
+    text-align: center;
+    background-color: #355263;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: whitesmoke;
+    font-size: 12px;
+}
