@@ -2,7 +2,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    background-color: #355263;
+    background-color: #1F2937;
 }
 
 #mainLogo{
@@ -13,7 +13,8 @@ header{
 
 ul{
     list-style-type: none;
-    color: #a4a8ab;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 li{
@@ -30,13 +31,19 @@ li{
     align-items: center;
     justify-content: center;
     gap:40px;
-    background-color: #355263;
+    background-color: #1F2937;
     color: white;
 }
 
 .mainDes{
     width: 500px;
     display: block;
+}
+
+.mainDes h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
 }
 
 #mainImg{
@@ -51,7 +58,7 @@ margin: 15px;
     background-color: #3b95e3;
     width: 100px;
     border-radius: 15%;
-    color: aliceblue;
+    color: #3882f6;
     margin-bottom: 10px;
 }
 
@@ -65,8 +72,8 @@ margin: 15px;
     width: 300px;
     
     text-align: center;
-    color:   #a5afb8;
-    font-size: 20px;
+    color:   #1F2937;
+    font:36px extra-bold;
 }
 
 .pic{
@@ -99,16 +106,17 @@ margin: 15px;
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
-    background-color: #d5dbe0;
+    background-color: #E5E7EB;
     align-items: center;
 }
 
 .row3 p{
-    font-size: 30px;
+    font-size: 36px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: italic;
+    font-style: light italic;
     width: 700px;
     text-align: center;
+    color: #1F2937;
     margin: auto;
 }
 
